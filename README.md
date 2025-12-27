@@ -37,9 +37,8 @@ The application workflow is as follows:
 ## Project Structure
 ```
 .
-├── data/                  # Directory containing PDF files
-├── faiss_index/           # Stored FAISS vector index
-├── app.py                 # Streamlit application code
+├── requirements.txt
+├── app.py          
 └── README.md
 ```
 
