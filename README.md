@@ -9,13 +9,13 @@ The project is built as a hands-on PoC to understand how **LLMs can be combined 
 
 The application workflow is as follows:
 
-1. PDF documents are loaded from a local directory  
-2. Documents are split into chunks for efficient retrieval  
-3. Text embeddings are generated using **Amazon Titan Embeddings**  
-4. Embeddings are stored locally using **FAISS**  
-5. User questions are matched against relevant document chunks  
-6. A Bedrock-hosted LLM generates answers using retrieved context  
-7. Results are displayed through a **Streamlit web interface**
+- PDF documents are loaded from a local directory
+- Documents are split into chunks for efficient retrieval
+- Text embeddings are generated using **Amazon Titan Embeddings**
+- Embeddings are stored locally using **FAISS**
+- User questions are matched against relevant document chunks
+- A Bedrock-hosted LLM generates answers using retrieved context
+- Results are displayed through a **Streamlit web interface**
 
 ## Architecture
 
